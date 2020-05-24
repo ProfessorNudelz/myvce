@@ -1,12 +1,12 @@
 import React from 'react'
 import Layout from '../components/layout'
 
-function home() {
+function myResults() {
   return (
     <Layout>
-      <h1>Home</h1>
+      <h1>myResults</h1>
     </Layout>
   );
 }
 
-export default home
+export default myResults
