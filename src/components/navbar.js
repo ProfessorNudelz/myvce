@@ -16,7 +16,7 @@ function navbar() {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav mr-auto">
           {/* With the bootstrap component, having a link to / always highlights it in the nav */}
-          <NavLink to="/" activeClassName="nav-item active">
+          <NavLink to="/mydashboard" activeClassName="nav-item active">
             <a className="nav-link">myDashboard</a>
           </NavLink>
           <NavLink to="/mystudies" activeClassName="nav-item active">
