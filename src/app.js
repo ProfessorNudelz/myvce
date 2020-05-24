@@ -3,8 +3,9 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
+  Redirect
 } from "react-router-dom"
-import Home from './pages/home'
+import MyDashboard from './pages/myDashboard'
 import MyStudies from './pages/myStudies'
 import MyResults from './pages/myResults'
 import MyExams from './pages/myExams'
@@ -15,7 +16,10 @@ export default function App() {
     <Router>
       <Switch>
         <Route exact path="/">
-          <Home />
+          <MyDashboard />
+        </Route>
+        <Route path="/mydashboard">
+          <Redirect to="/" />
         </Route>
         <Route path="/mystudies">
           <MyStudies />
