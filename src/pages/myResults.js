@@ -6,7 +6,7 @@ function myResults() {
     <Layout>
       <h1>myResults</h1>
     </Layout>
-  );
+  )
 }
 
 export default myResults

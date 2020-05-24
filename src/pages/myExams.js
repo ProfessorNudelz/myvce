@@ -6,7 +6,7 @@ function myExams() {
     <Layout>
       <h1>myExams</h1>
     </Layout>
-  );
+  )
 }
 
 export default myExams

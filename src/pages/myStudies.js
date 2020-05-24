@@ -6,7 +6,7 @@ function myStudies() {
     <Layout>
       <h1>myStudies</h1>
     </Layout>
-  );
+  )
 }
 
 export default myStudies
