@@ -16,11 +16,11 @@ function myDashboard() {
       </div>
       <div className="jumbotron">
         <h1 className="display-4">Hello, <samp>firstName</samp>!</h1>
-        <p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <h4>Your student number is: <kbd>1xxxxxxxxx</kbd></h4>
         <hr className="my-4"/>
-        <p>It uses utility classNamees for typography and spacing to space content out within the larger container.</p>
+        <p>Everything you need to know about your VCE completion can be found on this website.</p>
         <Link to="/mystudies">
-          <button type="button" class="btn btn-primary">myStudies</button>
+          <button type="button" className="btn btn-primary">myStudies</button>
         </Link>
       </div>
     </Layout>

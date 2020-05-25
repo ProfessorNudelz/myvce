@@ -7,7 +7,8 @@ import {
 } from "react-router-dom"
 import MyDashboard from './pages/myDashboard'
 import MyStudies from './pages/myStudies'
-import MyResults from './pages/myResults'
+import MyResultsSS from './pages/myResultsSS'
+import MyResultsATAR from './pages/myResultsATAR'
 import MyExams from './pages/myExams'
 import Profile from './pages/profile'
 import FourZeroFourErrPage from './pages/errorPages/404'
@@ -26,7 +27,10 @@ export default function App() {
           <MyStudies />
         </Route>
         <Route path="/myresults">
-          <MyResults />
+          <MyResultsSS />
+        </Route>
+        <Route path="/myresultsatar">
+          <MyResultsATAR />
         </Route>
         <Route path="/myexams">
           <MyExams />

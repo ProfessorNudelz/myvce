@@ -92,10 +92,6 @@ function myStudies() {
             <th scope="col">Study</th>
             <th scope="col">Unit</th>
             <th scope="col">Result</th>
-            <th scope="col">GA1</th>
-            <th scope="col">GA2</th>
-            <th scope="col">GA3</th>
-            <th scope="col">Study Score</th>
           </tr>
         </thead>
         <tbody>
@@ -104,50 +100,30 @@ function myStudies() {
             <td>Business Management</td>
             <td>3/4</td>
             <td>/</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
           </tr>
           <tr>
             <th scope="row">2020</th>
             <td>English</td>
             <td>3/4</td>
             <td>/</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
           </tr>
           <tr>
             <th scope="row">2020</th>
             <td>Mathematics: Further Mathematics</td>
             <td>3/4</td>
             <td>/</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
           </tr>
           <tr>
             <th scope="row">2020</th>
             <td>Mathematics: Mathematical Methods</td>
             <td>3/4</td>
             <td>/</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
           </tr>
           <tr>
             <th scope="row">2020</th>
             <td>Computing: Software Development</td>
             <td>3/4</td>
             <td>/</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
           </tr>
         </tbody>
       </table>
