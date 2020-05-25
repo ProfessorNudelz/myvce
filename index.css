@@ -1,0 +1,16 @@
+.navbar {
+  margin-bottom: 20px;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
+.card-title {
+  font-size: 500;
+  font-weight: bold;
+}
+
+.footer {
+  text-align: center;
+}
