@@ -121,7 +121,7 @@ function myStudies() {
           </tr>
           <tr>
             <th scope="row">2020</th>
-            <td>Mathematics: General Mathematics</td>
+            <td>Mathematics: Further Mathematics</td>
             <td>3/4</td>
             <td>/</td>
             <td>-</td>
@@ -141,7 +141,7 @@ function myStudies() {
           </tr>
           <tr>
             <th scope="row">2020</th>
-            <td>Computing: Informatics</td>
+            <td>Computing: Software Development</td>
             <td>3/4</td>
             <td>/</td>
             <td>-</td>
