@@ -9,6 +9,7 @@ import MyDashboard from './pages/myDashboard'
 import MyStudies from './pages/myStudies'
 import MyResults from './pages/myResults'
 import MyExams from './pages/myExams'
+import Profile from './pages/profile'
 import FourZeroFourErrPage from './pages/errorPages/404'
 
 export default function App() {
@@ -29,6 +30,9 @@ export default function App() {
         </Route>
         <Route path="/myexams">
           <MyExams />
+        </Route>
+        <Route path="/profile">
+          <Profile />
         </Route>
         <Route path="*">
           <FourZeroFourErrPage />

@@ -1,10 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 
 function navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
       <NavLink to="/">
         <a className="navbar-brand">myVCE</a>
       </NavLink>        
@@ -28,6 +28,20 @@ function navbar() {
           <NavLink to="/myexams" activeClassName="nav-item active">
             <a className="nav-link">myExams</a>
           </NavLink>
+          <li className="nav-item dropdown">
+            <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              John Doe
+            </a>
+            <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <Link to="/profile">
+                <button className="dropdown-item" type="button"><i className="fas fa-user"></i> Profile</button>
+              </Link>
+              <div className="dropdown-divider"></div>
+              <Link to="/logout">
+                <button className="dropdown-item" type="button"><i className="fas fa-sign-out-alt"></i> Logout</button>
+              </Link>
+            </div>
+          </li>
         </ul>
       </div>
     </nav>
