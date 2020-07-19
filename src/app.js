@@ -38,6 +38,10 @@ export default function App() {
         <Route path="/profile">
           <Profile />
         </Route>
+        {/* For github pages */}
+        <Route path="/myvce">
+          <Redirect to="/" />
+        </Route>
         <Route path="*">
           <FourZeroFourErrPage />
         </Route>
